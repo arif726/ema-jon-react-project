@@ -1,6 +1,24 @@
 .Cart-Details{
-
+    position: fixed;
 }
 .Order{
-    text-align: center;
+   text-align: center; 
+}
+.Total-Table{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2fr;
+    margin-left: 10px;
+}
+.Total-Table h5{
+    border-bottom: 1px solid gray;
+    padding-top: 2px;
+}
+.Total-Table h2{
+    color: rgb(184, 41, 41);
+}
+.Cart-Details button{
+   width: 200px;
+   height: 30px;
+   margin-left: 10px;
 }

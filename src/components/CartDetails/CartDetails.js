@@ -8,10 +8,23 @@ const CartDetails = () => {
                 <h2>Order Summary</h2>
                 <h4>Items Ordered : </h4>
             </div>
-            <div>
-                
+            <div className="Total-Table">
+                <div>
+                    <h5>Items : </h5>
+                    <h5>Shipping : </h5>
+                    <h5>Total before tax : </h5>
+                    <h5>Estimated tax : </h5>
+                    <h2>Order Total : </h2>
+                </div>
+                <div>
+                    <h5>${ }</h5>
+                    <h5>${ }</h5>
+                    <h5>${ }</h5>
+                    <h5>${ }</h5>
+                    <h2>${ }</h2>
+                </div>
             </div>
-            <div></div>
+            <button>Review Order</button>
         </div>
     );
 };
