@@ -1,0 +1,20 @@
+.Header{
+    text-align: center;
+}
+
+.Header img{
+    height: 80px;
+}
+
+.Header a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.Header nav{
+    background-color: black;
+    padding: 10px;
+}
