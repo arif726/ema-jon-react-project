@@ -1,3 +1,27 @@
 .Product-Container{
     display: flex;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 18%;
+}
+.Product-Image{
+    padding: 30px;
+}
+.Product-Details{
+    margin-left: 5px;
+}
+h3{
+    color: rgb(70, 70, 247);
+    font-weight: 500;
+}
+button{
+    background-color: goldenrod;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-weight: 500;
+    cursor: pointer;
+    
 }
